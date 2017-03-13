@@ -1,0 +1,29 @@
+{
+  "ocs.internal": {
+    "reset": "upstream/dev",
+    "merge": [
+      "upstream/major/traveler",
+      "upstream/feature/actionRenewing",
+      "upstream/wip-train",
+      "upstream/change/refactorNeeds",
+      "upstream/wip-creepBody",
+      "upstream/fix/healClosest",
+      "upstream/bug/stacktrace"
+    ]
+  },
+  "ocs.public": {
+    "reset": "upstream/dev",
+    "merge": [
+      "upstream/major/traveler",
+      "upstream/task/powerMiningDev",
+      "upstream/change/noSelfTarget",
+      "upstream/fix/defendersTravel",
+      "upstream/major/setupRclRefactor",
+      "upstream/change/refactorNeeds",
+      "upstream/change/infectObjects",
+      "upstream/fix/roomRecovery",
+      "upstream/change/rebuilAlly",
+      "upstream/bug/roomCollapsedWaste"
+    ]
+  }
+}
